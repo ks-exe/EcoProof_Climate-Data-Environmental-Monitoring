@@ -2483,7 +2483,36 @@ credential error; the approved inspection outside the sandbox succeeded.
 
 ### Publication and next action
 
-The README and source are ready for the initial commit and push. The remote
-commit and public page will be checked after upload, with the result recorded
-below. The video URL is still pending. After publication, the owner reviews the
-repository, records/uploads the video and submits before the deadline.
+Published the initial source commit
+`7ef7e619f242fcbf92105c43321b1a3732fd91ab` to `origin/main`. Actual Git output:
+
+```text
+branch 'main' set up to track 'origin/main'.
+To https://github.com/ks-exe/EcoProof_Climate-Data-Environmental-Monitoring.git
+ * [new branch]      main -> main
+```
+
+The first metadata write was blocked because Git's repository directory belongs
+to the sandbox account. Publishing used an explicit `safe.directory` option
+limited to this project on each command; no global trust exception was added.
+The staged Git blobs were scanned before committing: 164 files, zero configured
+credential matches, preserved spec/classifier bytes and a clean `git diff
+--cached --check`.
+
+Post-push checks against GitHub returned:
+
+```text
+remote_commit_matches_local: true
+repository_http_status: 200
+readme_matches_committed_bytes: true
+readme_visible_on_repository_page: true
+dashboard_and_evaluation_images: HTTP 200, match local bytes
+published_files: 164
+private_local_files_excluded: true
+```
+
+The repository is public. No force push or replacement of existing remote
+history was needed. This follow-up progress entry records the already verified
+publication; the application and README are unchanged from the tested source
+commit. The video URL is still pending. Next: owner reviews the repository,
+records/uploads the video and submits before the deadline. Stop for review.
