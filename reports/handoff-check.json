@@ -1,0 +1,164 @@
+{
+  "checked_at": "2026-10-24T15:02:06.068427+00:00",
+  "source_kind": "fresh export of nonignored source files; no commit or remote exists",
+  "env_file_present": false,
+  "database_present_before": false,
+  "private_key_provided": false,
+  "signing_transactions_sent": false,
+  "imports_exported_source": true,
+  "original": {
+    "exit_code": 0,
+    "verified": true,
+    "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "chain_id": 11155111,
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "leaf_index": 0,
+    "record_hash": "793c14f61bb305d9632609573673588602e458769beb7bbf3b88bce4f2e13433",
+    "on_chain_root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "on_chain_record_count": 7,
+    "reason": "Canonical record matches the public commitment"
+  },
+  "edited": {
+    "exit_code": 1,
+    "verified": false,
+    "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "chain_id": 11155111,
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "leaf_index": 0,
+    "record_hash": "66973d2b93bf025e593aed79851d40220e437522c560cd9bcb7f2ee7e1d7271c",
+    "on_chain_root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "on_chain_record_count": 7,
+    "reason": "Record, proof or metadata does not match the public commitment"
+  },
+  "restored": {
+    "exit_code": 0,
+    "verified": true,
+    "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "chain_id": 11155111,
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "leaf_index": 0,
+    "record_hash": "793c14f61bb305d9632609573673588602e458769beb7bbf3b88bce4f2e13433",
+    "on_chain_root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "on_chain_record_count": 7,
+    "reason": "Canonical record matches the public commitment"
+  },
+  "clean_start": {
+    "api_docs_http_status": 200,
+    "frontend_http_status": 200,
+    "empty_data_http_status": 503,
+    "empty_data_detail": "Data database is missing; ingest observations and build Silver/Gold first",
+    "published_evaluation_and_chart_match": true
+  },
+  "live_demo": {
+    "dashboard_http_status": 200,
+    "api_docs_http_status": 200
+  },
+  "video_event_examples": {
+    "SENSOR_FAULT_DRIFT": {
+      "station_id": "4712609",
+      "ts": "2026-10-11T06:00:00.000000Z",
+      "value": 60.8,
+      "expected": 47.529934484984494,
+      "residual": 13.270065515015503,
+      "z": 2.1775068094946306,
+      "label": "SENSOR_FAULT_DRIFT",
+      "neighbor_count": 7,
+      "wind_speed": 1.75,
+      "wind_dir_deg": 182.0,
+      "low_confidence": false,
+      "reason": "suspected_persistent_drift",
+      "record_hash": "189afd683f78407ea4692944763f715b4c894315ea6dada21171f55cc2014cff",
+      "batch_id": null,
+      "baseline_sigma": 6.094155690881768,
+      "smoothed_z": 2.5965678606241522,
+      "plume_evidence": [],
+      "plume_sources": []
+    },
+    "VERIFIED_PLUME_EVENT": {
+      "station_id": "4712609",
+      "ts": "2026-10-09T19:00:00.000000Z",
+      "value": 79.6,
+      "expected": 56.25146762830343,
+      "residual": 23.348532371696564,
+      "z": 3.8312989618285003,
+      "label": "VERIFIED_PLUME_EVENT",
+      "neighbor_count": 9,
+      "wind_speed": 2.91,
+      "wind_dir_deg": 117.0,
+      "low_confidence": false,
+      "reason": "downwind_lagged_rise",
+      "record_hash": "23fab063ddd95316e2f4b01d555c55f7ef8c57d6bd31503beeacb0712b90a58d",
+      "batch_id": null,
+      "baseline_sigma": 6.094155690881768,
+      "smoothed_z": 1.5970373629200867,
+      "plume_evidence": [
+        {
+          "station_id": "6254594",
+          "ts": "2026-10-09T20:00:00Z",
+          "lag_hours": 1,
+          "travel_hours": 0.37016195293447474,
+          "alignment": 0.8742977601971739,
+          "rise": 18.7275,
+          "reference": 53.7725
+        },
+        {
+          "station_id": "8118",
+          "ts": "2026-10-09T20:00:00Z",
+          "lag_hours": 1,
+          "travel_hours": 0.16241391425724283,
+          "alignment": 0.8735476115502614,
+          "rise": 7.5,
+          "reference": 50.5
+        }
+      ],
+      "plume_sources": []
+    }
+  },
+  "database_present_after": false,
+  "owned_test_services_stopped": true,
+  "immutable_inputs": {
+    "bronze_files_checked": 85,
+    "all_hashes_match": true,
+    "spec_sha256": "8307cf224dc66ca6767b0842817fbe4f37ef4d830ab2572c778edb79880f2395"
+  },
+  "local_document_links": {
+    "checked": 99,
+    "missing_targets": []
+  },
+  "tests": {
+    "full_clean_export": {
+      "command": ".venv/Scripts/python.exe -m pytest -q --basetemp=.cache/first-run-test-parent/tmp",
+      "exit_code": 0,
+      "actual_summary": "447 passed, 3 warnings in 10342.69s (2:52:22)",
+      "warnings": [
+        "websockets.legacy deprecation",
+        "Starlette HTTPX TestClient deprecation",
+        "Windows optional pytest node-ID cache write denied"
+      ],
+      "temporary_parent_absent_before_run": true,
+      "implementation_matches_workspace": true
+    },
+    "initial_clean_export_attempt": {
+      "actual_summary": "13 passed, 1 warning, 1 error in 55.63s",
+      "error": "Missing parent of configured pytest temporary directory",
+      "fixed_by": "tests/conftest.py pytest_sessionstart creates the parent"
+    },
+    "frontend_unit": {
+      "exit_code": 0,
+      "actual_summary": "Tests  14 passed (14)"
+    },
+    "frontend_build": {
+      "exit_code": 0,
+      "actual_summary": "27 modules transformed; built in 1.29s"
+    },
+    "contract_compile": {
+      "exit_code": 0,
+      "actual_summary": "Compiled 1 Solidity file with solc 0.8.20 (evm target: shanghai)"
+    }
+  },
+  "final_http_check_at": "2026-10-24T18:12:48.125751+00:00",
+  "final_http_statuses": {
+    "http://127.0.0.1:5173": 200,
+    "http://127.0.0.1:8000/docs": 200
+  }
+}

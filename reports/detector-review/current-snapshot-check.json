@@ -1,0 +1,11 @@
+{
+  "classified_rows": 1546,
+  "saved_rows": 1546,
+  "changed_canonical_records": 0,
+  "changes": [],
+  "labels": {
+    "VALID": 1514,
+    "VERIFIED_PLUME_EVENT": 17,
+    "SENSOR_FAULT_DRIFT": 15
+  }
+}

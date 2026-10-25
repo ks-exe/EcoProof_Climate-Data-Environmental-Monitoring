@@ -1,0 +1,45 @@
+{
+  "batch": {
+    "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "window_start": "2026-10-11T23:00:00Z",
+    "window_end": "2026-10-12T00:00:00Z",
+    "record_count": 7,
+    "merkle_root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "tx_hash": "0xbc325583e39e7778538a69878d9507281444a2e508ce13f048df455096ca5e49",
+    "chain_id": 11155111,
+    "anchored_at": "2026-10-24T06:16:24Z",
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB"
+  },
+  "leaf_index": 0,
+  "record": {
+    "station_id": "17",
+    "ts": "2026-10-11T23:00:00.000000Z",
+    "value": 22.0,
+    "expected": 18.5654,
+    "residual": 3.4346,
+    "z": 0.1936,
+    "label": "VALID",
+    "neighbor_count": 8,
+    "wind_speed": 1.06,
+    "wind_dir_deg": 45.0,
+    "low_confidence": false,
+    "reason": "within_threshold"
+  },
+  "canonical_record": "{\"expected\":18.5654,\"label\":\"VALID\",\"low_confidence\":false,\"neighbor_count\":8,\"reason\":\"within_threshold\",\"residual\":3.4346,\"station_id\":\"17\",\"ts\":\"2026-10-11T23:00:00.000000Z\",\"value\":22.0000,\"wind_dir_deg\":45.0000,\"wind_speed\":1.0600,\"z\":0.1936}",
+  "record_hash": "793c14f61bb305d9632609573673588602e458769beb7bbf3b88bce4f2e13433",
+  "path": [
+    {
+      "sibling_hash": "d302bc0bbff6c3f7b5d6d8a18b163b4b451890ca491a718a0b07f36ba871d34b",
+      "side": "right"
+    },
+    {
+      "sibling_hash": "08b9f9af7ce528f7b7292e569a8095ad98fca5a8797e387d20474cde4e78b857",
+      "side": "right"
+    },
+    {
+      "sibling_hash": "1ae324ba77eb6ef070908757b86368c9db4e7162f185b13d25559a819b8e6a6c",
+      "side": "right"
+    }
+  ],
+  "root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0"
+}

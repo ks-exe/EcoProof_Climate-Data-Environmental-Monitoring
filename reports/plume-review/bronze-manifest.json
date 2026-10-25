@@ -1,0 +1,342 @@
+[
+  {
+    "file": "openaq_20261023T124427952826Z.json",
+    "sha256": "bbda7b187df7cbafa9502ac459fc0c32a9ba62e8a02c070cb6470a33eb0e4b10"
+  },
+  {
+    "file": "openaq_20261023T124555985385Z.json",
+    "sha256": "d949d40b8c11f4ce76488255cbcb5a201efb9c34a46c0a2352fbcfa31f0e0f59"
+  },
+  {
+    "file": "openaq_20261023T124600501502Z.json",
+    "sha256": "66035d3417a4a7368e9dc1fafe78c55a3501ebaefe4f53191cf92ca8739d4930"
+  },
+  {
+    "file": "openaq_20261023T124602477295Z.json",
+    "sha256": "98ea14c8eecf9bb221da7cf07ce67d9f03d3be3a57c39728e9cd5d8ee1f27872"
+  },
+  {
+    "file": "openaq_20261023T124604318142Z.json",
+    "sha256": "6e5dc266c2e58caa71bfe82f32541d4dbe2f2d6f9f414d838d3bb6d29383b883"
+  },
+  {
+    "file": "openaq_20261023T124607748751Z.json",
+    "sha256": "c3f81d98a04c2c1bff439e539f33612eb1b126180c119381a43f5506fc96ce54"
+  },
+  {
+    "file": "openaq_20261023T124608834920Z.json",
+    "sha256": "1cc319481674336b4a1b886693e6cdc856c0a50b78737c477781637a6c58984b"
+  },
+  {
+    "file": "openaq_20261023T124610356502Z.json",
+    "sha256": "c3ef92856c0cdb7c8c80a2217602b7daa60ed23122db738705f2f3847767458c"
+  },
+  {
+    "file": "openaq_20261023T124611070675Z.json",
+    "sha256": "df0f799f446752fb56959273df6a322c64409399b32151069d2b88ab56b89c2b"
+  },
+  {
+    "file": "openaq_20261023T124615935879Z.json",
+    "sha256": "5fe9df220128f0b223a32068e16f7ea48682e8cf27830591edbc7f1cbb1b5316"
+  },
+  {
+    "file": "openaq_20261023T124617316241Z.json",
+    "sha256": "2710d044a8c20bb8184e5df78f61fdbe755c54d49663662fd40a8680330faccb"
+  },
+  {
+    "file": "openaq_20261023T124618351571Z.json",
+    "sha256": "5740039b67f0d9b4a957547292ca4a63f9474b091d5ca9fa3c4602e5dfe7b740"
+  },
+  {
+    "file": "openaq_20261023T124619552915Z.json",
+    "sha256": "f4156e2af85c6a5699ae9b41d2f82bae5f1c41faff1add5200f3287de5747fde"
+  },
+  {
+    "file": "openaq_20261023T124622229874Z.json",
+    "sha256": "d97ba76aa0cd0eb54dba82fbe27eedb487ee41a1b89c218d0a479fb608cd6ea4"
+  },
+  {
+    "file": "openaq_20261023T124624126410Z.json",
+    "sha256": "b9e25987ee1528a17444a139e0bd84a6ec8b38f882b4e6bed54e8a455bc677ca"
+  },
+  {
+    "file": "openaq_20261023T124624826131Z.json",
+    "sha256": "9743b0655b74aad4d8e5bb98a5f4578da3e0931250c7031160f00f5087ef4a9b"
+  },
+  {
+    "file": "openaq_20261023T124626291120Z.json",
+    "sha256": "95846488aef5effcacb44f50224984894b4ec6fe0b81bd049701900f16d4cd7c"
+  },
+  {
+    "file": "openaq_20261023T124629023999Z.json",
+    "sha256": "a89f57a50695371c82d4057804897042225e99ebd5be3ccbd5d814a1693ccbda"
+  },
+  {
+    "file": "openaq_20261023T124629827586Z.json",
+    "sha256": "9585238a9eca23edb38223648b92dd6ed11ad1bd8dc36a99fbb0f96a55e5c00f"
+  },
+  {
+    "file": "openaq_20261023T124633251889Z.json",
+    "sha256": "e3b1698a0eba1d670bebcfb11199af3de490f0607e11d76e7b59fc7229fc1893"
+  },
+  {
+    "file": "openaq_20261023T124635234331Z.json",
+    "sha256": "595c31c9fd28fcb7bf8c6f48d7912b8c406df3ffb30549514d18f9b133dcfcf1"
+  },
+  {
+    "file": "openaq_20261023T131705094374Z.json",
+    "sha256": "f8fcba37456372355e599f5cfc09ce3a3e27b5502e93f6c33b6fe894c34698d9"
+  },
+  {
+    "file": "openaq_20261023T131706568156Z.json",
+    "sha256": "7e4e12446482d830926446932a274926de2eb84dd421fbdd29484a6d425f9b34"
+  },
+  {
+    "file": "openaq_20261023T131707446012Z.json",
+    "sha256": "9eeafbcda25d6d3c38ab5551ed081814097964e193db433818ef8fe9ad34a836"
+  },
+  {
+    "file": "openaq_20261023T131709121017Z.json",
+    "sha256": "c2651412dff6b109b5a6540ad8820021986f5ca63f59af3a83613cd624f3fd30"
+  },
+  {
+    "file": "openaq_20261023T131710557219Z.json",
+    "sha256": "d24a946ec5e1b80aa854226538c32282805d46e900d368322236f03c1e67bc56"
+  },
+  {
+    "file": "openaq_20261023T131711142469Z.json",
+    "sha256": "48ac380bf16666278dd80aa700f9eb8d633acf7029436caee4657ef234266592"
+  },
+  {
+    "file": "openaq_20261023T131712188698Z.json",
+    "sha256": "2c2b7f93639cacde9327ea5ee88f6cfa615b5007231a96631a0c24c940980a02"
+  },
+  {
+    "file": "openaq_20261023T131713635826Z.json",
+    "sha256": "74bcc3bb7e5a9ca451bda79d999d065640b41081065867cc7f2cfea3b088b1f8"
+  },
+  {
+    "file": "openaq_20261023T131715194942Z.json",
+    "sha256": "f1b70a6c315f9b756b1225f5c8b071c76db5e3eeeffc142c80f2792c81d1e962"
+  },
+  {
+    "file": "openaq_20261023T131716008280Z.json",
+    "sha256": "d0743cdacfff5eea23595e1eed37c12dd7392e8ab8f5de2ddce5cccfa1db1eee"
+  },
+  {
+    "file": "openaq_20261023T131717446857Z.json",
+    "sha256": "761a939c8c9bc5d91430e2c6cd74eabd5f3b68486868e0abcb840616a3a4667a"
+  },
+  {
+    "file": "openaq_20261023T131718502738Z.json",
+    "sha256": "bfe0c7179941640ea248380613dfc10b04aad359a7d30990d9a07eab4183daed"
+  },
+  {
+    "file": "openaq_20261023T131719993385Z.json",
+    "sha256": "926a9230bd96441f28d62c9bdd22390c20a29877e6ffd82287c6bb18d49605a3"
+  },
+  {
+    "file": "openaq_20261023T131721429098Z.json",
+    "sha256": "439d9bec4328c6fc60deac6604f29959c1d54c95b431f98cac9802344ff06202"
+  },
+  {
+    "file": "openaq_20261023T131722425312Z.json",
+    "sha256": "14491fdec926afbdc62accbe9ea1f52b9ad97c1b79c613fcee2a198b045d1141"
+  },
+  {
+    "file": "openaq_20261023T131723470386Z.json",
+    "sha256": "56f32098fd5249fd87f2975aed3865d554fdb2a624cd11dece9decfd7af8bfa9"
+  },
+  {
+    "file": "openaq_20261023T131724605555Z.json",
+    "sha256": "14de262c2292f9a8b7dd61e8e40c4120fa0d33a5768e60c937347a52bfb0e3b5"
+  },
+  {
+    "file": "openaq_20261023T131725217705Z.json",
+    "sha256": "5716d77deb3a63ceb07be9e6862660512a17748e815254e4fa7ae8e877d45ef9"
+  },
+  {
+    "file": "openaq_20261023T131727081453Z.json",
+    "sha256": "6ce961e2c0b3e62820f11aa7b1b6089f26085bfe0384bc0e9fd881427c76ce8c"
+  },
+  {
+    "file": "openaq_20261023T131728452183Z.json",
+    "sha256": "e0e050aca5e4859ca3adfb943356dfcbaf1b2472211a19d3fe27243f6a731a6f"
+  },
+  {
+    "file": "openaq_20261023T143536242264Z.json",
+    "sha256": "f8e3e61adccd9773f84d6c2b55416a14483af47f2254419f9bb18716e32344fa"
+  },
+  {
+    "file": "openaq_20261023T143539495718Z.json",
+    "sha256": "265b2fc26ea98009acd7169b6bede5f94cbd7a5354cee27b25ed3fea4fe31ab0"
+  },
+  {
+    "file": "openaq_20261023T143540394822Z.json",
+    "sha256": "f36de315f9cfd06ace8830aa7f56628e779b68b2c6d4f4aef8ceea731e2afe6b"
+  },
+  {
+    "file": "openaq_20261023T143541587686Z.json",
+    "sha256": "397aa5771ecac7e154e73cbe6bcb852cbcb08fab0716cc67028f90666a431e92"
+  },
+  {
+    "file": "openaq_20261023T143544006229Z.json",
+    "sha256": "1101c0273ef70b807606d84a20804b72969d487e65a8deeb1d8fb941fbcd0862"
+  },
+  {
+    "file": "openaq_20261023T143544997277Z.json",
+    "sha256": "ca324e616d587b246843b8b607e4146cd3a1bc2ceba1b6d68eed58ebae309bc3"
+  },
+  {
+    "file": "openaq_20261023T143546682122Z.json",
+    "sha256": "88a1b82cf4ee7b9b9581ec9d67ac3968560371c5870b1aa5183294ccb798f2dc"
+  },
+  {
+    "file": "openaq_20261023T143547479028Z.json",
+    "sha256": "e88f56b49e82fb91c5c3234b794069bce7739236a3a842ab257162a6e3552a70"
+  },
+  {
+    "file": "openaq_20261023T143550682971Z.json",
+    "sha256": "7b55980272e97b53734c9e0243c5659a2282b8c7e0e02ff4bf6856fea06cbcae"
+  },
+  {
+    "file": "openaq_20261023T143551485428Z.json",
+    "sha256": "0aba291450af81c2fd698947b4678c5afce98daf68eb41149e08d490d004707c"
+  },
+  {
+    "file": "openaq_20261023T143552521282Z.json",
+    "sha256": "2b8fc00dc3eebed7316f54548b1aa177ebdf0de7932080cd4cd894bd7da8b244"
+  },
+  {
+    "file": "openaq_20261023T143553589685Z.json",
+    "sha256": "ad2c6202e49151fda6206d6490a5a0efcc9ede7c397ce3d23c87d4c2b20757ee"
+  },
+  {
+    "file": "openaq_20261023T143555742489Z.json",
+    "sha256": "08166044aa1006cf9929cb7d1fe58362feacaa525fd008ef306615d57ea2d197"
+  },
+  {
+    "file": "openaq_20261023T143558506365Z.json",
+    "sha256": "42d13e997e82e9147e8c1e4629eac19ab57270deb25cb59d4bb222b6f812c8af"
+  },
+  {
+    "file": "openaq_20261023T143600180595Z.json",
+    "sha256": "64a83cea9303f4f5d288e5b3011f7ea6b62176ea7ff8cdb9b8a57789860f661c"
+  },
+  {
+    "file": "openaq_20261023T143601681679Z.json",
+    "sha256": "cb13c46b31726cbf75930d3e918b621576697a80f86224cf9ce989dbd2c05eb5"
+  },
+  {
+    "file": "openaq_20261023T143604238121Z.json",
+    "sha256": "89bb26420afa335425d45221c5c275dce378816088eca3571cdf88f50b23012b"
+  },
+  {
+    "file": "openaq_20261023T143606077067Z.json",
+    "sha256": "830de1e6a422780c34af4a57151ddf79a4df874994e7e8bdc47367ad70820ef0"
+  },
+  {
+    "file": "openaq_20261023T143609059157Z.json",
+    "sha256": "938f31cad0b95c523b53c96b1e0c5fad53012e6648069c74e8123c4d4b3b4c56"
+  },
+  {
+    "file": "openaq_20261023T143612102634Z.json",
+    "sha256": "db1ad6e56bbe574ea9dbc72b32ec582de0ee2adf332b60dfc6a586dc8399368a"
+  },
+  {
+    "file": "openaq_20261024T132251716260Z.json",
+    "sha256": "117a9fe88ad75b2cd5c6fe81d890ccdcdddf279e84395dd27b0aa9c4e0505e87"
+  },
+  {
+    "file": "openaq_20261024T132255959248Z.json",
+    "sha256": "b48769a21249027b6104ebf5ed2f9d56613193223049061e8e946b9b20530c1b"
+  },
+  {
+    "file": "openaq_20261024T132257411687Z.json",
+    "sha256": "9e491cb83a069e6ab591440ae612ae1dd6fd654dc3dd3b184390c9cc15304576"
+  },
+  {
+    "file": "openaq_20261024T132258699772Z.json",
+    "sha256": "860b13624790ddf290a5810d88f25d89a64ffa81f5965e5fdfda75213c6ad86d"
+  },
+  {
+    "file": "openaq_20261024T132301614429Z.json",
+    "sha256": "8a4602f521b9eb1f242c6f05681874c4bacdb807a3f0323ba1690afdefd1b515"
+  },
+  {
+    "file": "openaq_20261024T132303353543Z.json",
+    "sha256": "8de24bb970c2c4e56932cebd6ea0aad468e8b8dbeca850b190433eaf28b8807e"
+  },
+  {
+    "file": "openaq_20261024T132305752171Z.json",
+    "sha256": "83ae3aa805c6c4b537e1ff48e54560f84c581ebfed0934612748911d3ec66749"
+  },
+  {
+    "file": "openaq_20261024T132307190158Z.json",
+    "sha256": "87435040329703279b837fc82515173163a8aaeb02dafa00f4597d8f9a089768"
+  },
+  {
+    "file": "openaq_20261024T132310181472Z.json",
+    "sha256": "fb2e4db0aa5a13ca51159cf167ec846a2bffa416cba8cc99be2c93ab830fa730"
+  },
+  {
+    "file": "openaq_20261024T132311530343Z.json",
+    "sha256": "6477c9a6ce6556ba725c3681b946e5a70f3d6ca890084faa14c107b955e84e48"
+  },
+  {
+    "file": "openaq_20261024T132313184764Z.json",
+    "sha256": "fda26dcac889c02de04c51fb4ec5f620377359dd4ecd46ac07b0a424c72579c5"
+  },
+  {
+    "file": "openaq_20261024T132315747330Z.json",
+    "sha256": "525884da445a5e56317d511db88b648476bc3f103ac790b3aa9cb4c85ac0c63c"
+  },
+  {
+    "file": "openaq_20261024T132317429204Z.json",
+    "sha256": "b2167799b82f0e2f4efea0dc5d8815bf86487af370c768787359eb4624679611"
+  },
+  {
+    "file": "openaq_20261024T132318399957Z.json",
+    "sha256": "94c10465ab598e2282da0e7619109bcfb2123b89df78bb232ac92338d283e4f9"
+  },
+  {
+    "file": "openaq_20261024T132321570776Z.json",
+    "sha256": "12d9a2212f8f077847b523bcceab691d91b71b3dbee805409401557217dc89cf"
+  },
+  {
+    "file": "openaq_20261024T132323368283Z.json",
+    "sha256": "54a5f200fae143d9652534456bd40712665f6d178d05fa6de7ff84afcab22d05"
+  },
+  {
+    "file": "openaq_20261024T132325884867Z.json",
+    "sha256": "c929191511a8aa2c931d8e1606e041c10703b9594efbb41dd0e3b2c7a572e396"
+  },
+  {
+    "file": "openaq_20261024T132329452155Z.json",
+    "sha256": "a874e79d8a03f5698bb87e0710d454c7c3c769e0bd6fbc100b64e169a524aee9"
+  },
+  {
+    "file": "openaq_20261024T132331058787Z.json",
+    "sha256": "772e2597115e09824d8f1a605d0d513dc3137e0642dc4c6572787ca19a0aea3f"
+  },
+  {
+    "file": "openmeteo_20261019T125448550421Z.json",
+    "sha256": "89e91f8509e7c9a720e0430b592a57410d1c5733be363274edf79df9457283c3"
+  },
+  {
+    "file": "openmeteo_20261023T124636472917Z.json",
+    "sha256": "09038bb3a513db81001401d78042cd940b3e4e0c7351bf898988d3e7e089cef6"
+  },
+  {
+    "file": "openmeteo_20261023T131729210038Z.json",
+    "sha256": "0f52ced8b6a9f017963d0f2dbfe39966b4cbb7bfa918137bc847f9e7a8dcca17"
+  },
+  {
+    "file": "openmeteo_20261023T143613059624Z.json",
+    "sha256": "a7ce835ed726ca9cff5f94a48dc2bfb44edef902173a24251eb26c6ccab853ec"
+  },
+  {
+    "file": "openmeteo_20261024T132332787866Z.json",
+    "sha256": "f065a4007f46fb1549c2f8fca702010cdfda6fc7048137ace8baa11d6e3ffd5a"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "checked_at": "2026-10-24T06:18:48.885652+00:00",
+  "network": "Ethereum Sepolia",
+  "chain_id": 11155111,
+  "deployment": {
+    "status": "mined",
+    "chain_id": 11155111,
+    "owner": "0x94Da0DeC6446de596296552196586A5eB2cC6291",
+    "bytecode_sha256": "edfdbc81bd971b28b8710aa3ee12715a830749df7b686f291788fbf95ae335ef",
+    "tx_hash": "0x4a57758efaa4c467b8becb82625e6084a8fc2b054d5ffb01c0945d6d38482b67",
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "block_number": 11981959,
+    "block_hash": "0xc70d489c0a768079562e00506f80bb0e73c758c20377e8a8667ee7c3a3b47559",
+    "gas_used": 2112789
+  },
+  "anchor": {
+    "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "tx_hash": "0xbc325583e39e7778538a69878d9507281444a2e508ce13f048df455096ca5e49",
+    "receipt_status": 1,
+    "block_number": 11981966,
+    "block_hash": "0x8b526c3231b851f5296f6c3bd9ced48a2086aa7ed1d70fe0e048b92021a84d0d",
+    "gas_used": 239742,
+    "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+    "record_count": 7,
+    "anchored_at": "2026-10-24T06:16:24+00:00"
+  },
+  "local_batches": {
+    "prepared": 165,
+    "anchored": 1
+  },
+  "demo_record": {
+    "station_id": "17",
+    "ts": "2026-10-11T23:00:00.000000Z",
+    "leaf_index": 0,
+    "original_value": "22.0000",
+    "edited_value": "23.0000"
+  },
+  "cli": {
+    "read": {
+      "exit_code": 0,
+      "result": {
+        "root": "e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+        "window_start": 1791759600,
+        "window_end": 1791763200,
+        "record_count": 7,
+        "anchored_at": 1792822584
+      }
+    },
+    "original": {
+      "exit_code": 0,
+      "result": {
+        "verified": true,
+        "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+        "leaf_index": 0,
+        "chain_id": 11155111,
+        "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+        "reason": "Canonical record matches the on-chain batch"
+      }
+    },
+    "edited": {
+      "exit_code": 1,
+      "result": {
+        "verified": false,
+        "batch_id": "ecoproof:v1:valid:20261011T230000Z:e7aaf8938d201639002bfed699ed30b73674746c28d460ad4f1ce594aa67efc0",
+        "leaf_index": 0,
+        "chain_id": 11155111,
+        "contract_address": "0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+        "reason": "Record or batch does not match the on-chain commitment"
+      }
+    }
+  },
+  "explorer": {
+    "contract": "https://sepolia.etherscan.io/address/0xb120d4671607E7C24F6C14C4f23B589F5f4484EB",
+    "deployment": "https://sepolia.etherscan.io/tx/0x4a57758efaa4c467b8becb82625e6084a8fc2b054d5ffb01c0945d6d38482b67",
+    "anchor": "https://sepolia.etherscan.io/tx/0xbc325583e39e7778538a69878d9507281444a2e508ce13f048df455096ca5e49"
+  },
+  "remaining_wallet_sepolia_eth": "0.049999999960006973"
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""Deploy/resume the compiled registry using the project's web3.py client."""
+
+import sys
+from ecoproof.provenance.anchor import main
+
+if __name__ == "__main__":
+    main(["deploy", *sys.argv[1:]])

@@ -1,0 +1,50 @@
+# Local credentials (including nested service env files).
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments, caches, and build output.
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tools/
+.cache/
+build/
+dist/
+
+# Local data; keep the directory layout in Git.
+data/*
+!data/README.md
+!data/bronze/
+!data/silver/
+!data/gold/
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+*.duckdb
+*.duckdb.wal
+
+# Frontend and contract tool output.
+node_modules/
+web/test-results/
+web/playwright-report/
+contracts/out/
+contracts/cache/
+contracts/artifacts/
+contracts/broadcast/
+
+# Local editor and OS files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

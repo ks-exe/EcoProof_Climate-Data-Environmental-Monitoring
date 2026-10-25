@@ -1,0 +1,14 @@
+{
+  "detector_source_sha256": "b4dbcd390245fb3147217e8237c0633a2407c484a648b37bd76a804d2eaf0982",
+  "compared_records": 1546,
+  "changed_records": 0,
+  "changes": [],
+  "new_labels": {
+    "VALID": 1514,
+    "VERIFIED_PLUME_EVENT": 17,
+    "SENSOR_FAULT_DRIFT": 15
+  },
+  "new_low_confidence": 257,
+  "anchored_records_checked": 7,
+  "anchored_record_hashes_unchanged": true
+}

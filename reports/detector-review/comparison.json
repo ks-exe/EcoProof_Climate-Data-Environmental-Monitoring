@@ -1,0 +1,296 @@
+{
+  "development": {
+    "start_utc": "2026-10-05T00:00:00Z",
+    "end_exclusive_utc": "2026-10-12T00:00:00Z",
+    "cases_per_type": 3,
+    "seed": 42,
+    "paired_inputs_and_interventions": true,
+    "before": {
+      "fault_metrics": {
+        "stuck": {
+          "f1": 0.0963855421686747,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 32,
+          "fp": 43,
+          "precision": 0.0851063829787234,
+          "recall": 0.1111111111111111,
+          "tn": 4559,
+          "tp": 4
+        },
+        "zero": {
+          "f1": 0.13953488372093023,
+          "false_positive_rate": 0.009561060408518035,
+          "fn": 30,
+          "fp": 44,
+          "precision": 0.12,
+          "recall": 0.16666666666666666,
+          "tn": 4558,
+          "tp": 6
+        },
+        "spike": {
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 3,
+          "fp": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 4590,
+          "tp": 0
+        },
+        "drift": {
+          "f1": 0.025,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 35,
+          "fp": 43,
+          "precision": 0.022727272727272728,
+          "recall": 0.027777777777777776,
+          "tn": 4559,
+          "tp": 1
+        },
+        "degradation": {
+          "f1": 0.024390243902439025,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 35,
+          "fp": 45,
+          "precision": 0.021739130434782608,
+          "recall": 0.027777777777777776,
+          "tn": 4557,
+          "tp": 1
+        }
+      },
+      "unchanged_control": {
+        "confident_fraction": 0.833764553686934,
+        "f1": null,
+        "false_positive_rate": 0.009702457956015523,
+        "fn": 0,
+        "fp": 15,
+        "low_confidence_count": 257,
+        "low_confidence_fault_count": 0,
+        "precision": 0.0,
+        "recall": null,
+        "tn": 1531,
+        "tp": 0
+      },
+      "plume_false_faults": 1,
+      "plume_affected_observations": 8,
+      "plume_negative_control_passed": false
+    },
+    "after": {
+      "fault_metrics": {
+        "stuck": {
+          "f1": 0.5094339622641509,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 9,
+          "fp": 43,
+          "precision": 0.38571428571428573,
+          "recall": 0.75,
+          "tn": 4559,
+          "tp": 27
+        },
+        "zero": {
+          "f1": 0.5046728971962616,
+          "false_positive_rate": 0.009561060408518035,
+          "fn": 9,
+          "fp": 44,
+          "precision": 0.38028169014084506,
+          "recall": 0.75,
+          "tn": 4558,
+          "tp": 27
+        },
+        "spike": {
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 3,
+          "fp": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 4590,
+          "tp": 0
+        },
+        "drift": {
+          "f1": 0.025,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 35,
+          "fp": 43,
+          "precision": 0.022727272727272728,
+          "recall": 0.027777777777777776,
+          "tn": 4559,
+          "tp": 1
+        },
+        "degradation": {
+          "f1": 0.024390243902439025,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 35,
+          "fp": 45,
+          "precision": 0.021739130434782608,
+          "recall": 0.027777777777777776,
+          "tn": 4557,
+          "tp": 1
+        }
+      },
+      "unchanged_control": {
+        "confident_fraction": 0.833764553686934,
+        "f1": null,
+        "false_positive_rate": 0.009702457956015523,
+        "fn": 0,
+        "fp": 15,
+        "low_confidence_count": 257,
+        "low_confidence_fault_count": 0,
+        "precision": 0.0,
+        "recall": null,
+        "tn": 1531,
+        "tp": 0
+      },
+      "plume_false_faults": 1,
+      "plume_affected_observations": 8,
+      "plume_negative_control_passed": false
+    }
+  },
+  "independent": {
+    "start_utc": "2026-09-25T00:00:00Z",
+    "end_exclusive_utc": "2026-10-02T00:00:00Z",
+    "cases_per_type": 5,
+    "seed": 2026,
+    "paired_inputs_and_interventions": true,
+    "before": {
+      "fault_metrics": {
+        "stuck": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002770448548812665,
+          "fn": 60,
+          "fp": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7559,
+          "tp": 0
+        },
+        "zero": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002638522427440633,
+          "fn": 60,
+          "fp": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7560,
+          "tp": 0
+        },
+        "spike": {
+          "f1": 0.08,
+          "false_positive_rate": 0.0024885396201702686,
+          "fn": 4,
+          "fp": 19,
+          "precision": 0.05,
+          "recall": 0.2,
+          "tn": 7616,
+          "tp": 1
+        },
+        "drift": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002770448548812665,
+          "fn": 60,
+          "fp": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7559,
+          "tp": 0
+        },
+        "degradation": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002638522427440633,
+          "fn": 60,
+          "fp": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7560,
+          "tp": 0
+        }
+      },
+      "unchanged_control": {
+        "confident_fraction": 0.8965968586387435,
+        "f1": null,
+        "false_positive_rate": 0.002617801047120419,
+        "fn": 0,
+        "fp": 4,
+        "low_confidence_count": 158,
+        "low_confidence_fault_count": 0,
+        "precision": 0.0,
+        "recall": null,
+        "tn": 1524,
+        "tp": 0
+      },
+      "plume_false_faults": 0,
+      "plume_affected_observations": 14,
+      "plume_negative_control_passed": true
+    },
+    "after": {
+      "fault_metrics": {
+        "stuck": {
+          "f1": 0.7142857142857143,
+          "false_positive_rate": 0.002770448548812665,
+          "fn": 15,
+          "fp": 21,
+          "precision": 0.6818181818181818,
+          "recall": 0.75,
+          "tn": 7559,
+          "tp": 45
+        },
+        "zero": {
+          "f1": 0.6666666666666666,
+          "false_positive_rate": 0.002638522427440633,
+          "fn": 20,
+          "fp": 20,
+          "precision": 0.6666666666666666,
+          "recall": 0.6666666666666666,
+          "tn": 7560,
+          "tp": 40
+        },
+        "spike": {
+          "f1": 0.08,
+          "false_positive_rate": 0.0024885396201702686,
+          "fn": 4,
+          "fp": 19,
+          "precision": 0.05,
+          "recall": 0.2,
+          "tn": 7616,
+          "tp": 1
+        },
+        "drift": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002770448548812665,
+          "fn": 60,
+          "fp": 21,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7559,
+          "tp": 0
+        },
+        "degradation": {
+          "f1": 0.0,
+          "false_positive_rate": 0.002638522427440633,
+          "fn": 60,
+          "fp": 20,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 7560,
+          "tp": 0
+        }
+      },
+      "unchanged_control": {
+        "confident_fraction": 0.8965968586387435,
+        "f1": null,
+        "false_positive_rate": 0.002617801047120419,
+        "fn": 0,
+        "fp": 4,
+        "low_confidence_count": 158,
+        "low_confidence_fault_count": 0,
+        "precision": 0.0,
+        "recall": null,
+        "tn": 1524,
+        "tp": 0
+      },
+      "plume_false_faults": 0,
+      "plume_affected_observations": 14,
+      "plume_negative_control_passed": true
+    }
+  }
+}

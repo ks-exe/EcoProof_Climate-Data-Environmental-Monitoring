@@ -1,0 +1,2890 @@
+{
+  "baseline_end_exclusive_utc": "2026-10-05T00:00:00Z",
+  "baseline_start_utc": "2026-10-03T00:00:00Z",
+  "candidate_count": 1026,
+  "cases": [
+    {
+      "actually_changed": 12,
+      "case_id": "stuck-1",
+      "interventions": [
+        {
+          "injected": 54.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 59.5,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 67.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T07:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 121.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T08:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 103.66666666666667,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T09:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 77.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T10:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 73.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T11:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 57.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T12:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 70.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T13:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 79.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T14:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 82.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T15:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 89.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T16:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 91.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T17:00:00Z"
+        }
+      ],
+      "kind": "stuck",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8344113842173351,
+          "f1": 0.5,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 3,
+          "fp": 15,
+          "low_confidence_count": 256,
+          "low_confidence_fault_count": 0,
+          "precision": 0.375,
+          "recall": 0.75,
+          "tn": 1519,
+          "tp": 9
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 54.5,
+        "hours": 12,
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "stuck-2",
+      "interventions": [
+        {
+          "injected": 54.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 27.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T06:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 30.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T07:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 34.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T08:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 37.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T09:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T10:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 30.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T11:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T12:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 32.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T13:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 39.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T14:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 76.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T15:00:00Z"
+        },
+        {
+          "injected": 54.25,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 71.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "kind": "stuck",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8311772315653299,
+          "f1": 0.5294117647058824,
+          "false_positive_rate": 0.00847457627118644,
+          "fn": 3,
+          "fp": 13,
+          "low_confidence_count": 261,
+          "low_confidence_fault_count": 3,
+          "precision": 0.4090909090909091,
+          "recall": 0.75,
+          "tn": 1521,
+          "tp": 9
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 54.25,
+        "hours": 12,
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "stuck-3",
+      "interventions": [
+        {
+          "injected": 27.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 25.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T07:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T08:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T09:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 28.25,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T10:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T11:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 33.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T12:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 34.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T13:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 38.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T14:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 40.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T15:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 53.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T16:00:00Z"
+        },
+        {
+          "injected": 27.5,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 68.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T17:00:00Z"
+        }
+      ],
+      "kind": "stuck",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8350582147477361,
+          "f1": 0.5,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 3,
+          "fp": 15,
+          "low_confidence_count": 255,
+          "low_confidence_fault_count": 0,
+          "precision": 0.375,
+          "recall": 0.75,
+          "tn": 1519,
+          "tp": 9
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 27.5,
+        "hours": 12,
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "zero-4",
+      "interventions": [
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 59.5,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 67.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T07:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 121.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T08:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 103.66666666666667,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T09:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 77.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T10:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 73.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T11:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 57.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T12:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 70.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T13:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 79.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T14:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 82.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T15:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 89.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T16:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 91.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T17:00:00Z"
+        }
+      ],
+      "kind": "zero",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8253557567917206,
+          "f1": 0.45714285714285713,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 4,
+          "fp": 15,
+          "low_confidence_count": 270,
+          "low_confidence_fault_count": 4,
+          "precision": 0.34782608695652173,
+          "recall": 0.6666666666666666,
+          "tn": 1519,
+          "tp": 8
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 0.0,
+        "hours": 12,
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "zero-5",
+      "interventions": [
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 27.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T06:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 30.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T07:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 34.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T08:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 37.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T09:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T10:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 30.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T11:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T12:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 32.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T13:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 39.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T14:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 76.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T15:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 71.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "kind": "zero",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.833117723156533,
+          "f1": 0.5142857142857142,
+          "false_positive_rate": 0.009126466753585397,
+          "fn": 3,
+          "fp": 14,
+          "low_confidence_count": 258,
+          "low_confidence_fault_count": 3,
+          "precision": 0.391304347826087,
+          "recall": 0.75,
+          "tn": 1520,
+          "tp": 9
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 0.0,
+        "hours": 12,
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "zero-6",
+      "interventions": [
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 25.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T07:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T08:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T09:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 28.25,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T10:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T11:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 33.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T12:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 34.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T13:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 38.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T14:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 40.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T15:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 53.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T16:00:00Z"
+        },
+        {
+          "injected": 0.0,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 68.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T17:00:00Z"
+        }
+      ],
+      "kind": "zero",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8357050452781372,
+          "f1": 0.5405405405405406,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 2,
+          "fp": 15,
+          "low_confidence_count": 254,
+          "low_confidence_fault_count": 2,
+          "precision": 0.4,
+          "recall": 0.8333333333333334,
+          "tn": 1519,
+          "tp": 10
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "constant": 0.0,
+        "hours": 12,
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 1,
+      "case_id": "spike-7",
+      "interventions": [
+        {
+          "injected": 159.5,
+          "label": "VERIFIED_PLUME_EVENT",
+          "low_confidence": false,
+          "original": 59.5,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        }
+      ],
+      "kind": "spike",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.833117723156533,
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 1,
+          "fp": 15,
+          "low_confidence_count": 258,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1530,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 1.0,
+          "false_positive_rate": 0.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "tn": 1545,
+          "tp": 1
+        }
+      },
+      "parameters": {
+        "delta": 100.0,
+        "hours": 1,
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 1,
+      "case_id": "spike-8",
+      "interventions": [
+        {
+          "injected": 131.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        }
+      ],
+      "kind": "spike",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8324708926261319,
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 1,
+          "fp": 15,
+          "low_confidence_count": 259,
+          "low_confidence_fault_count": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1530,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 1,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1545,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "delta": 100.0,
+        "hours": 1,
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 1,
+      "case_id": "spike-9",
+      "interventions": [
+        {
+          "injected": 125.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 25.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        }
+      ],
+      "kind": "spike",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8324708926261319,
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 1,
+          "fp": 15,
+          "low_confidence_count": 259,
+          "low_confidence_fault_count": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1530,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 1,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1545,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "delta": 100.0,
+        "hours": 1,
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "drift-10",
+      "interventions": [
+        {
+          "injected": 62.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 59.5,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        },
+        {
+          "injected": 72.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 67.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T07:00:00Z"
+        },
+        {
+          "injected": 129.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 121.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T08:00:00Z"
+        },
+        {
+          "injected": 113.66666666666667,
+          "label": "VERIFIED_PLUME_EVENT",
+          "low_confidence": false,
+          "original": 103.66666666666667,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T09:00:00Z"
+        },
+        {
+          "injected": 89.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 77.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T10:00:00Z"
+        },
+        {
+          "injected": 88.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 73.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T11:00:00Z"
+        },
+        {
+          "injected": 74.75,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 57.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T12:00:00Z"
+        },
+        {
+          "injected": 90.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 70.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T13:00:00Z"
+        },
+        {
+          "injected": 101.75,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 79.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T14:00:00Z"
+        },
+        {
+          "injected": 107.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 82.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T15:00:00Z"
+        },
+        {
+          "injected": 116.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 89.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T16:00:00Z"
+        },
+        {
+          "injected": 121.75,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 91.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T17:00:00Z"
+        }
+      ],
+      "kind": "drift",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8305304010349288,
+          "f1": 0.07142857142857142,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 11,
+          "fp": 15,
+          "low_confidence_count": 262,
+          "low_confidence_fault_count": 7,
+          "precision": 0.0625,
+          "recall": 0.08333333333333333,
+          "tn": 1519,
+          "tp": 1
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "final_delta": 30.0,
+        "hours": 12,
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "drift-11",
+      "interventions": [
+        {
+          "injected": 33.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        },
+        {
+          "injected": 32.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 27.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T06:00:00Z"
+        },
+        {
+          "injected": 37.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 30.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T07:00:00Z"
+        },
+        {
+          "injected": 44.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 34.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T08:00:00Z"
+        },
+        {
+          "injected": 49.75,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 37.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T09:00:00Z"
+        },
+        {
+          "injected": 46.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T10:00:00Z"
+        },
+        {
+          "injected": 48.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 30.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T11:00:00Z"
+        },
+        {
+          "injected": 51.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T12:00:00Z"
+        },
+        {
+          "injected": 54.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 32.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T13:00:00Z"
+        },
+        {
+          "injected": 64.25,
+          "label": "VERIFIED_PLUME_EVENT",
+          "low_confidence": false,
+          "original": 39.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T14:00:00Z"
+        },
+        {
+          "injected": 103.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 76.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T15:00:00Z"
+        },
+        {
+          "injected": 101.0,
+          "label": "VERIFIED_PLUME_EVENT",
+          "low_confidence": false,
+          "original": 71.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "kind": "drift",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8272962483829237,
+          "f1": 0.0,
+          "false_positive_rate": 0.009126466753585397,
+          "fn": 12,
+          "fp": 14,
+          "low_confidence_count": 267,
+          "low_confidence_fault_count": 6,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1520,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "final_delta": 30.0,
+        "hours": 12,
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "drift-12",
+      "interventions": [
+        {
+          "injected": 28.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 25.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        },
+        {
+          "injected": 36.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T07:00:00Z"
+        },
+        {
+          "injected": 39.25,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T08:00:00Z"
+        },
+        {
+          "injected": 39.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T09:00:00Z"
+        },
+        {
+          "injected": 40.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 28.25,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T10:00:00Z"
+        },
+        {
+          "injected": 44.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T11:00:00Z"
+        },
+        {
+          "injected": 50.5,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 33.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T12:00:00Z"
+        },
+        {
+          "injected": 54.75,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 34.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T13:00:00Z"
+        },
+        {
+          "injected": 61.25,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 38.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T14:00:00Z"
+        },
+        {
+          "injected": 65.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 40.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T15:00:00Z"
+        },
+        {
+          "injected": 81.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 53.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T16:00:00Z"
+        },
+        {
+          "injected": 98.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 68.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T17:00:00Z"
+        }
+      ],
+      "kind": "drift",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8318240620957309,
+          "f1": 0.0,
+          "false_positive_rate": 0.009126466753585397,
+          "fn": 12,
+          "fp": 14,
+          "low_confidence_count": 260,
+          "low_confidence_fault_count": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1520,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "final_delta": 30.0,
+        "hours": 12,
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "degradation-13",
+      "interventions": [
+        {
+          "injected": 41.65,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 59.5,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        },
+        {
+          "injected": 47.425,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 67.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T07:00:00Z"
+        },
+        {
+          "injected": 85.225,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 121.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T08:00:00Z"
+        },
+        {
+          "injected": 72.56666666666666,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 103.66666666666667,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T09:00:00Z"
+        },
+        {
+          "injected": 53.9,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 77.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T10:00:00Z"
+        },
+        {
+          "injected": 51.275,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 73.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T11:00:00Z"
+        },
+        {
+          "injected": 40.074999999999996,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 57.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T12:00:00Z"
+        },
+        {
+          "injected": 49.525,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 70.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T13:00:00Z"
+        },
+        {
+          "injected": 55.474999999999994,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 79.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T14:00:00Z"
+        },
+        {
+          "injected": 57.574999999999996,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 82.25,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T15:00:00Z"
+        },
+        {
+          "injected": 62.3,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 89.0,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T16:00:00Z"
+        },
+        {
+          "injected": 64.225,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 91.75,
+          "role": "fault",
+          "station_id": "6358",
+          "ts": "2026-10-08T17:00:00Z"
+        }
+      ],
+      "kind": "degradation",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.833764553686934,
+          "f1": 0.0,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 12,
+          "fp": 15,
+          "low_confidence_count": 257,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1519,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "factor": 0.7,
+        "hours": 12,
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "degradation-14",
+      "interventions": [
+        {
+          "injected": 21.875,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        },
+        {
+          "injected": 19.424999999999997,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 27.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T06:00:00Z"
+        },
+        {
+          "injected": 21.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 30.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T07:00:00Z"
+        },
+        {
+          "injected": 24.15,
+          "label": "SENSOR_FAULT_DRIFT",
+          "low_confidence": false,
+          "original": 34.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T08:00:00Z"
+        },
+        {
+          "injected": 26.075,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 37.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T09:00:00Z"
+        },
+        {
+          "injected": 21.875,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T10:00:00Z"
+        },
+        {
+          "injected": 21.525,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 30.75,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T11:00:00Z"
+        },
+        {
+          "injected": 22.049999999999997,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.5,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T12:00:00Z"
+        },
+        {
+          "injected": 22.4,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 32.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T13:00:00Z"
+        },
+        {
+          "injected": 27.474999999999998,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 39.25,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T14:00:00Z"
+        },
+        {
+          "injected": 53.199999999999996,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 76.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T15:00:00Z"
+        },
+        {
+          "injected": 49.699999999999996,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 71.0,
+          "role": "fault",
+          "station_id": "5613",
+          "ts": "2026-10-06T16:00:00Z"
+        }
+      ],
+      "kind": "degradation",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8344113842173351,
+          "f1": 0.07142857142857142,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 11,
+          "fp": 15,
+          "low_confidence_count": 256,
+          "low_confidence_fault_count": 4,
+          "precision": 0.0625,
+          "recall": 0.08333333333333333,
+          "tn": 1519,
+          "tp": 1
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "factor": 0.7,
+        "hours": 12,
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 12,
+      "case_id": "degradation-15",
+      "interventions": [
+        {
+          "injected": 17.849999999999998,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 25.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        },
+        {
+          "injected": 22.224999999999998,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T07:00:00Z"
+        },
+        {
+          "injected": 22.224999999999998,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 31.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T08:00:00Z"
+        },
+        {
+          "injected": 20.65,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T09:00:00Z"
+        },
+        {
+          "injected": 19.775,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 28.25,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T10:00:00Z"
+        },
+        {
+          "injected": 20.65,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 29.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T11:00:00Z"
+        },
+        {
+          "injected": 23.099999999999998,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 33.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T12:00:00Z"
+        },
+        {
+          "injected": 24.325,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 34.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T13:00:00Z"
+        },
+        {
+          "injected": 27.125,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 38.75,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T14:00:00Z"
+        },
+        {
+          "injected": 28.0,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 40.0,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T15:00:00Z"
+        },
+        {
+          "injected": 37.449999999999996,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 53.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T16:00:00Z"
+        },
+        {
+          "injected": 47.949999999999996,
+          "label": "VALID",
+          "low_confidence": false,
+          "original": 68.5,
+          "role": "fault",
+          "station_id": "6957",
+          "ts": "2026-10-05T17:00:00Z"
+        }
+      ],
+      "kind": "degradation",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8350582147477361,
+          "f1": 0.0,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 12,
+          "fp": 15,
+          "low_confidence_count": 255,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 1519,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 12,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 1534,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "factor": 0.7,
+        "hours": 12,
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957"
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 3,
+      "case_id": "plume-16",
+      "interventions": [
+        {
+          "injected": 159.5,
+          "label": "VERIFIED_PLUME_EVENT",
+          "low_confidence": false,
+          "original": 59.5,
+          "role": "plume_source",
+          "station_id": "6358",
+          "ts": "2026-10-08T06:00:00Z"
+        },
+        {
+          "injected": 119.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 69.25,
+          "role": "plume_arrival",
+          "station_id": "5613",
+          "ts": "2026-10-08T08:00:00Z"
+        },
+        {
+          "injected": 120.9,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 70.9,
+          "role": "plume_arrival",
+          "station_id": "4712609",
+          "ts": "2026-10-08T08:00:00Z"
+        }
+      ],
+      "kind": "plume",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8292367399741267,
+          "f1": null,
+          "false_positive_rate": 0.009702457956015523,
+          "fn": 0,
+          "fp": 15,
+          "low_confidence_count": 264,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 1531,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": null,
+          "false_positive_rate": 0.000646830530401035,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 1545,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "amplitude": 100.0,
+        "decay": 0.5,
+        "lag_tolerance_hours": 1.0,
+        "recipients": [
+          {
+            "alignment": 0.9481784196351494,
+            "lag_hours": 2,
+            "station_id": "5613",
+            "travel_hours": 2.2214029702802605
+          },
+          {
+            "alignment": 0.8597763149598895,
+            "lag_hours": 2,
+            "station_id": "4712609",
+            "travel_hours": 1.9757532526476191
+          }
+        ],
+        "start": "2026-10-08T06:00:00+00:00",
+        "station_id": "6358",
+        "tau_km": 20.0
+      },
+      "plume_control": {
+        "affected_observations": 3,
+        "ecoproof_faults_on_plume": 0,
+        "low_confidence_on_plume": 2,
+        "source_labels": [
+          "VERIFIED_PLUME_EVENT"
+        ],
+        "threshold_faults_on_plume": 1
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 3,
+      "case_id": "plume-17",
+      "interventions": [
+        {
+          "injected": 131.25,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 31.25,
+          "role": "plume_source",
+          "station_id": "5613",
+          "ts": "2026-10-06T05:00:00Z"
+        },
+        {
+          "injected": 90.77250000000001,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 40.7725,
+          "role": "plume_arrival",
+          "station_id": "6254665",
+          "ts": "2026-10-06T06:00:00Z"
+        },
+        {
+          "injected": 75.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 25.5,
+          "role": "plume_arrival",
+          "station_id": "6957",
+          "ts": "2026-10-06T06:00:00Z"
+        }
+      ],
+      "kind": "plume",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8272962483829237,
+          "f1": null,
+          "false_positive_rate": 0.008408796895213453,
+          "fn": 0,
+          "fp": 13,
+          "low_confidence_count": 267,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 1533,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": null,
+          "false_positive_rate": 0.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 1546,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "amplitude": 100.0,
+        "decay": 0.5,
+        "lag_tolerance_hours": 1.0,
+        "recipients": [
+          {
+            "alignment": 0.9882971695725795,
+            "lag_hours": 1,
+            "station_id": "6254665",
+            "travel_hours": 0.38469911848368465
+          },
+          {
+            "alignment": 0.4464652276588741,
+            "lag_hours": 1,
+            "station_id": "6957",
+            "travel_hours": 0.6249154388056378
+          }
+        ],
+        "start": "2026-10-06T05:00:00+00:00",
+        "station_id": "5613",
+        "tau_km": 20.0
+      },
+      "plume_control": {
+        "affected_observations": 3,
+        "ecoproof_faults_on_plume": 0,
+        "low_confidence_on_plume": 3,
+        "source_labels": [
+          "VALID"
+        ],
+        "threshold_faults_on_plume": 0
+      },
+      "scored_rows": 1546
+    },
+    {
+      "actually_changed": 2,
+      "case_id": "plume-18",
+      "interventions": [
+        {
+          "injected": 125.5,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 25.5,
+          "role": "plume_source",
+          "station_id": "6957",
+          "ts": "2026-10-05T06:00:00Z"
+        },
+        {
+          "injected": 80.515,
+          "label": "VALID",
+          "low_confidence": true,
+          "original": 30.515,
+          "role": "plume_arrival",
+          "station_id": "6254665",
+          "ts": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "kind": "plume",
+      "methods": {
+        "ecoproof": {
+          "confident_fraction": 0.8318240620957309,
+          "f1": null,
+          "false_positive_rate": 0.01034928848641656,
+          "fn": 0,
+          "fp": 16,
+          "low_confidence_count": 260,
+          "low_confidence_fault_count": 0,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 1530,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": null,
+          "false_positive_rate": 0.0,
+          "fn": 0,
+          "fp": 0,
+          "precision": null,
+          "recall": null,
+          "tn": 1546,
+          "tp": 0
+        }
+      },
+      "parameters": {
+        "amplitude": 100.0,
+        "decay": 0.5,
+        "lag_tolerance_hours": 1.0,
+        "recipients": [
+          {
+            "alignment": 0.33048128946609817,
+            "lag_hours": 1,
+            "station_id": "6254665",
+            "travel_hours": 0.41913200228814473
+          }
+        ],
+        "start": "2026-10-05T06:00:00+00:00",
+        "station_id": "6957",
+        "tau_km": 20.0
+      },
+      "plume_control": {
+        "affected_observations": 2,
+        "ecoproof_faults_on_plume": 0,
+        "low_confidence_on_plume": 2,
+        "source_labels": [
+          "VALID"
+        ],
+        "threshold_faults_on_plume": 0
+      },
+      "scored_rows": 1546
+    }
+  ],
+  "chart": "eval-2e4e70c91161426d9510479f6ebc7bea.png",
+  "detector_config": {
+    "alpha": 0.5,
+    "flat_tolerance": 0.0,
+    "lag_tolerance_hours": 1.0,
+    "min_baseline_samples": 24,
+    "persistence_hours": 5,
+    "recent_hours": 6,
+    "scale_floor": 1.0,
+    "sigma_km": 10,
+    "tau_km": 20.0,
+    "z_threshold": 2.5
+  },
+  "detector_revision": "after",
+  "detector_source_sha256": "b4dbcd390245fb3147217e8237c0633a2407c484a648b37bd76a804d2eaf0982",
+  "eligibility_rejections": {
+    "fewer_than_two_complete_neighbors": 27,
+    "incomplete_source_or_weather": 363,
+    "insufficient_baseline": 44
+  },
+  "end_exclusive_utc": "2026-10-12T00:00:00Z",
+  "evaluation_config": {
+    "cases_per_type": 3,
+    "degradation_factor": 0.7,
+    "drift_delta": 30.0,
+    "fault_hours": 12,
+    "plume_decay": 0.5,
+    "plume_delta": 100.0,
+    "plume_neighbors": 2,
+    "seed": 42,
+    "spike_delta": 100.0,
+    "threshold": 150.0
+  },
+  "generated_at_utc": "2026-10-24T13:39:37.797737Z",
+  "injection_rejections": {
+    "degradation": {},
+    "drift": {},
+    "plume": {},
+    "spike": {},
+    "stuck": {},
+    "zero": {}
+  },
+  "input_fingerprint_sha256": "26830aefe69b804b270354d86db0fa0bc8b4584add121c273a4953d58f3322d4",
+  "input_kind": "silver_observations",
+  "limitations": [
+    "Faults and plume patterns are synthetic. Untouched observations are presumed healthy, not ground-truth fault-free.",
+    "Metrics cover every observed output row per independent copy, including presumed-negative background; copies reuse that background.",
+    "Low-confidence fault misses count as false negatives. Confidence counts are reported separately.",
+    "Candidate eligibility requires baseline, weather, source history and two complete neighbors; no prediction-based selection.",
+    "Positions and parameters are fixed before scoring. This run does not tune parameters or estimate real-world fault prevalence.",
+    "Plume pass/fail measures false fault calls, not proof of atmospheric transport. Source labels and low-confidence counts are separate.",
+    "Undefined ratios are null. Precision/recall/F1 on presumed-clean background are not independently labeled field accuracy."
+  ],
+  "metrics": {
+    "degradation": {
+      "case_count": 3,
+      "low_confidence_count": 768,
+      "methods": {
+        "ecoproof": {
+          "f1": 0.024390243902439025,
+          "false_positive_rate": 0.009778357235984355,
+          "fn": 35,
+          "fp": 45,
+          "precision": 0.021739130434782608,
+          "recall": 0.027777777777777776,
+          "tn": 4557,
+          "tp": 1
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 36,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 4602,
+          "tp": 0
+        }
+      }
+    },
+    "drift": {
+      "case_count": 3,
+      "low_confidence_count": 789,
+      "methods": {
+        "ecoproof": {
+          "f1": 0.025,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 35,
+          "fp": 43,
+          "precision": 0.022727272727272728,
+          "recall": 0.027777777777777776,
+          "tn": 4559,
+          "tp": 1
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 36,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 4602,
+          "tp": 0
+        }
+      }
+    },
+    "plume": {
+      "case_count": 3,
+      "low_confidence_count": 791,
+      "methods": {
+        "ecoproof": {
+          "f1": null,
+          "false_positive_rate": 0.009486847779215178,
+          "fn": 0,
+          "fp": 44,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 4594,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": null,
+          "false_positive_rate": 0.00021561017680034498,
+          "fn": 0,
+          "fp": 1,
+          "precision": 0.0,
+          "recall": null,
+          "tn": 4637,
+          "tp": 0
+        }
+      }
+    },
+    "spike": {
+      "case_count": 3,
+      "low_confidence_count": 776,
+      "methods": {
+        "ecoproof": {
+          "f1": 0.0,
+          "false_positive_rate": 0.009708737864077669,
+          "fn": 3,
+          "fp": 45,
+          "precision": 0.0,
+          "recall": 0.0,
+          "tn": 4590,
+          "tp": 0
+        },
+        "threshold": {
+          "f1": 0.5,
+          "false_positive_rate": 0.0,
+          "fn": 2,
+          "fp": 0,
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "tn": 4635,
+          "tp": 1
+        }
+      }
+    },
+    "stuck": {
+      "case_count": 3,
+      "low_confidence_count": 772,
+      "methods": {
+        "ecoproof": {
+          "f1": 0.5094339622641509,
+          "false_positive_rate": 0.009343763581051717,
+          "fn": 9,
+          "fp": 43,
+          "precision": 0.38571428571428573,
+          "recall": 0.75,
+          "tn": 4559,
+          "tp": 27
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 36,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 4602,
+          "tp": 0
+        }
+      }
+    },
+    "zero": {
+      "case_count": 3,
+      "low_confidence_count": 782,
+      "methods": {
+        "ecoproof": {
+          "f1": 0.5046728971962616,
+          "false_positive_rate": 0.009561060408518035,
+          "fn": 9,
+          "fp": 44,
+          "precision": 0.38028169014084506,
+          "recall": 0.75,
+          "tn": 4558,
+          "tp": 27
+        },
+        "threshold": {
+          "f1": 0.0,
+          "false_positive_rate": 0.0,
+          "fn": 36,
+          "fp": 0,
+          "precision": null,
+          "recall": 0.0,
+          "tn": 4602,
+          "tp": 0
+        }
+      }
+    }
+  },
+  "plume_negative_control_passed": true,
+  "protocol": "docs/PLUME_REVIEW.md",
+  "raw_input_rows_with_context": 6868,
+  "region_id": "delhi",
+  "review_period": "development",
+  "schema_version": 1,
+  "start_utc": "2026-10-05T00:00:00Z",
+  "station_coverage": [
+    {
+      "observed_hours": 0,
+      "station_id": "103",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10484",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10486",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10487",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10489",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10820",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10831",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10900",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "10921",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 135,
+      "station_id": "11603",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "11607",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "13",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "15",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "16",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 155,
+      "station_id": "17",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "235",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "236",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "2503",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "2587",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "2597",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "2860223",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "3409496",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "431",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "4663956",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 168,
+      "station_id": "4712609",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "50",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5404",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5509",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5540",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5541",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5570",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5581",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5586",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5598",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5610",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 120,
+      "station_id": "5613",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5616",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5617",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5622",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5626",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5627",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5630",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 165,
+      "station_id": "5634",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5639",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5641",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5650",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5665",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5742",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5743",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5744",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5753",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5754",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5755",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5759",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5761",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5762",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5765",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "5766",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6105800",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6119272",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6145551",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6148686",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 158,
+      "station_id": "6254594",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6254663",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 164,
+      "station_id": "6254665",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6254666",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6257818",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6299494",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6299678",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6356",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6357",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 151,
+      "station_id": "6358",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6359",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6924",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 165,
+      "station_id": "6929",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6931",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6932",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6934",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6938",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 121,
+      "station_id": "6957",
+      "utc_dates": 7
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6960",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6980",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6986",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "6988",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "7005",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "7044",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 44,
+      "station_id": "8118",
+      "utc_dates": 3
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8235",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8239",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8365",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8472",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8475",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8915",
+      "utc_dates": 0
+    },
+    {
+      "observed_hours": 0,
+      "station_id": "8917",
+      "utc_dates": 0
+    }
+  ],
+  "status": "complete",
+  "synthetic_interventions": true,
+  "unchanged_control": {
+    "ecoproof": {
+      "confident_fraction": 0.833764553686934,
+      "f1": null,
+      "false_positive_rate": 0.009702457956015523,
+      "fn": 0,
+      "fp": 15,
+      "low_confidence_count": 257,
+      "low_confidence_fault_count": 0,
+      "precision": 0.0,
+      "recall": null,
+      "tn": 1531,
+      "tp": 0
+    },
+    "threshold": {
+      "f1": null,
+      "false_positive_rate": 0.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": null,
+      "recall": null,
+      "tn": 1546,
+      "tp": 0
+    }
+  }
+}
